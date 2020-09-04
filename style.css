@@ -2,8 +2,23 @@
 body {
   font-family: 'Lato', Arial, sans-serif;
   font-size: 18px;
-  background: #edf0f5;
+  background: #fff;
   color: #202125;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 2.5%;
+  /* -ms-transform: translateX(-50%);
+  transform: translateX(-50%); */
+}
+
+.center {
+  margin: auto;
 }
 
 ul {
@@ -13,12 +28,9 @@ ul {
 }
 
 .rating-wrapper {
-  max-width: 400px;
-  margin: 80px auto;
+  max-width: 350px;
   background: #fff;
-  padding: 1em;
   border-radius: 3px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 .rating-wrapper .rating-label {
   text-align: center;
